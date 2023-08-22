@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+body {
+  background-color: #fafafa;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.2px;
+}
+
+/* button up and disappear  */
+@keyframes buttonup {
+  0% {
+    transform: scale(1);
+    opacity: 100%;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 100%;
+  }
+  100% {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+
+.buttonup {
+  animation: buttonup 2s infinite;
+}
+
+.slick-arrow {
+  display: none !important;
+}
