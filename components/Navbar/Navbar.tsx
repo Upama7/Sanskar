@@ -44,7 +44,7 @@ function Navbar() {
         {/* logo section  */}
         <Link href="/" className="flex-1">
           <img
-            src="/assets/logo.png"
+            src="/Assets/logo.png"
             alt="image"
             className="w-[150px] h-[50px]"
           />

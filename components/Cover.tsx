@@ -31,19 +31,19 @@ function Cover() {
 
         <Slider {...settings} className="w-full h-full md:w-[50%] ">
           <div className=" h-full">
-            <img className="object-cover" src="/assets/slider.jpg" alt="" />
+            <img className="object-cover" src="/Assets/slider.jpg" alt="" />
           </div>
           <div className=" h-full">
-            <img className="object-cover" src="/assets/slider.jpg" alt="" />
+            <img className="object-cover" src="/Assets/slider.jpg" alt="" />
           </div>
           <div className=" h-full">
-            <img className="object-cover" src="/assets/slider.jpg" alt="" />
+            <img className="object-cover" src="/Assets/slider.jpg" alt="" />
           </div>
           <div className=" h-full">
-            <img className="object-cover" src="/assets/slider.jpg" alt="" />
+            <img className="object-cover" src="/Assets/slider.jpg" alt="" />
           </div>
           <div className=" h-full">
-            <img className="object-cover" src="/assets/slider.jpg" alt="" />
+            <img className="object-cover" src="/Assets/slider.jpg" alt="" />
           </div>
         </Slider>
       </div>
