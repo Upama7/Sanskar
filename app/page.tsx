@@ -7,7 +7,7 @@ import Success from "@/components/Success";
 
 import TDiv from "@/components/card/TDiv";
 import Company from "@/components/company/Company";
-import SDiv from "@/components/ser/SDiv";
+import SDiv from "@/components/SDiv";
 import Touch from "@/components/touch/Touch";
 
 export default function Home() {
